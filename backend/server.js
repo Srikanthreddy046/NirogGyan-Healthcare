@@ -12,7 +12,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/niroggyan', {
+const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/niroggyan';
+mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

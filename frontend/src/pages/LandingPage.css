@@ -1,0 +1,31 @@
+.landing-page {
+  background: #f0f4fa;
+  padding: 24px;
+  border-radius: 12px;
+}
+.landing-page h1 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.landing-page button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  margin-right: 12px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.landing-page button.active {
+  background: #388e3c;
+}
+.landing-page input[type="text"] {
+  margin-bottom: 16px;
+  padding: 8px;
+  width: 60%;
+  max-width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

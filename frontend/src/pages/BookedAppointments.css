@@ -1,0 +1,43 @@
+.booked-appointments {
+  margin: 40px auto;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booked-appointments h2 {
+  color: #1976d2;
+  margin-bottom: 18px;
+  font-size: 1.6em;
+  text-align: center;
+}
+.booked-appointments .appointment-card {
+  background: #f0f4fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.booked-appointments button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.booked-appointments button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,150 @@
+/* Main app content container */
+.app-content {
+  margin-top: 64px;
+  background: #f0f4fa;
+  min-height: 100vh;
+}
+/* Center and style appointment form */
+.appointment-form {
+  margin: 40px auto;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointment-form h2 {
+  color: #1976d2;
+  margin-bottom: 18px;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.appointment-form input {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #b0b0b0;
+  font-size: 1em;
+  background: #f0f4fa;
+  transition: border-color 0.2s;
+}
+.appointment-form input:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+.appointment-form button {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.appointment-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.appointment-form button[type="button"] {
+  background: #388e3c;
+  margin-bottom: 0;
+}
+/* Center and add margin to doctor profile */
+.doctor-profile {
+  margin: 40px auto;
+  max-width: 400px;
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4fa;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.landing-page h1 {
+  text-align: center;
+}
+
+
+.doctor-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  justify-items: center;
+}
+
+.doctor-card {
+  background: #f0f4fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 8px;
+  width: 220px;
+  min-height: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+  padding: 12px;
+}
+
+.doctor-card h2 {
+  margin-bottom: 4px;
+}
+.doctor-card p {
+  margin: 2px 0;
+}
+
+.available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+
+input[type="text"], input[type="email"], input[type="datetime-local"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
